@@ -1,4 +1,4 @@
-export type Timeframe = '1m' | '5m' | '15m' | '1h' | '4h' | '1D' | '1W';
+export type Timeframe = '1m' | '5m' | '15m' | '1h' | '4h' | '1D' | '1W' |'1M'| '1Y';
 
 export type Tick = {
   symbol: string;

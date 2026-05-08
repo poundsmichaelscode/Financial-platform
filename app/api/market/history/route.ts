@@ -8,7 +8,9 @@ const FRAME_SECONDS: Record<Timeframe, number> = {
   '1h': 3600,
   '4h': 14400,
   '1D': 86400,
-  '1W': 604800
+  '1W': 604800,
+  '1M': 2592000,
+  '1Y': 31536000,
 };
 
 function seedFromSymbol(symbol: string) {
